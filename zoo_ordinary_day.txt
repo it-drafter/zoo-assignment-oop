@@ -1,0 +1,29 @@
+~~ An ordinary day in the zoo ~~
+
+06:00 - botanists water the plants:
+ Hi! I am Klaus, a zoo maintenance worker! BOTANIST to be precise.
+ I water plants.
+
+08:00 - the janitor opens the gates to the park:
+ Hi! I am Sebastian, a zoo maintenance worker! JANITOR to be precise.
+ I open and close the gates to the park.
+
+09:00 - one of the animals breaks out of its cage:
+ Ant on the loose! Catch me if you can! My speed is: 0.1km/h
+ I have 6 legs.
+
+11:00 - the break out was noticed:
+ The Ant managed to make a 0.2km distance from the zoo.
+ The guard Albert tranquilized the animal.
+ The vet Timo made sure the animal was OK before it was put back in the cage.
+
+14:00 - one of the animal keepers is fined with a salary cut and one of the handymen repairs the cage:
+ Animal keeper Hans was responsible for the breakout.
+ The animal keeper's salary before he was fined: 600.0
+ The animal keeper's salary after he was fined: 540.0
+ Handyman Fritz repairs the cage.
+
+16:00 - the janitor closes the gates and the day is over:
+ Hi! I am Sebastian, a zoo maintenance worker! JANITOR to be precise.
+ I open and close the gates to the park.
+
