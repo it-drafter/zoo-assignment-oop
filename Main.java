@@ -41,38 +41,38 @@ public class Main {
 //        dodoBirdy.move();
 //        atomicAnt.move();
 
-        WriteToFile.writeToFile("~~ An ordinary day in the zoo ~~\n");
+        FilePrinter.writeToFile("~~ An ordinary day in the zoo ~~\n");
 
-        WriteToFile.writeToFile("06:00 - botanists water the plants:");
+        FilePrinter.writeToFile("06:00 - botanists water the plants:");
         botanist1.introduceMyself();
         botanist1.describeMyJob();
 
-        WriteToFile.writeToFile("08:00 - the janitor opens the gates to the park:");
+        FilePrinter.writeToFile("08:00 - the janitor opens the gates to the park:");
         janitor1.introduceMyself();
         janitor1.describeMyJob();
 
-        WriteToFile.writeToFile("09:00 - one of the animals breaks out of its cage:");
+        FilePrinter.writeToFile("09:00 - one of the animals breaks out of its cage:");
         Animal runAwayAnimal = getRandomAnimal(elephantDumbo, tigerTom, dodoBirdy, atomicAnt);
         runAwayAnimal.move();
 
-        WriteToFile.writeToFile("11:00 - the break out was noticed:");
+        FilePrinter.writeToFile("11:00 - the break out was noticed:");
         double distance = runAwayAnimal.movementSpeed * 2;
-        WriteToFile.writeToFile(" The " + runAwayAnimal.getSpecies() + " managed to make a " + distance + "km distance from the zoo.");
+        FilePrinter.writeToFile(" The " + runAwayAnimal.getSpecies() + " managed to make a " + distance + "km distance from the zoo.");
 
         Guard chosenGuard = getRandomGuard(guard1, guard2);
-        WriteToFile.writeToFile(" The guard " + chosenGuard.getName() + " tranquilized the animal.");
+        FilePrinter.writeToFile(" The guard " + chosenGuard.getName() + " tranquilized the animal.");
 
-        WriteToFile.writeToFile(" The vet " + runAwayAnimal.getDesignatedVeterinarian().getName() + " made sure the animal was OK before it was put back in the cage.\n");
+        FilePrinter.writeToFile(" The vet " + runAwayAnimal.getDesignatedVeterinarian().getName() + " made sure the animal was OK before it was put back in the cage.\n");
 
-        WriteToFile.writeToFile("14:00 - one of the animal keepers is fined with a salary cut and one of the handymen repairs the cage:");
-        WriteToFile.writeToFile(" Animal keeper " + animalKeeper1.getName() + " was responsible for the breakout.");
-        WriteToFile.writeToFile(" The animal keeper's salary before he was fined: " + animalKeeper1.getSalary());
+        FilePrinter.writeToFile("14:00 - one of the animal keepers is fined with a salary cut and one of the handymen repairs the cage:");
+        FilePrinter.writeToFile(" Animal keeper " + animalKeeper1.getName() + " was responsible for the breakout.");
+        FilePrinter.writeToFile(" The animal keeper's salary before he was fined: " + animalKeeper1.getSalary());
         animalKeeper1.setSalary(animalKeeper1.getSalary() * 0.9);
-        WriteToFile.writeToFile(" The animal keeper's salary after he was fined: " + animalKeeper1.getSalary());
+        FilePrinter.writeToFile(" The animal keeper's salary after he was fined: " + animalKeeper1.getSalary());
 
-        WriteToFile.writeToFile(" Handyman " + handyman1.getName() + " repairs the cage.\n");
+        FilePrinter.writeToFile(" Handyman " + handyman1.getName() + " repairs the cage.\n");
 
-        WriteToFile.writeToFile("16:00 - the janitor closes the gates and the day is over:");
+        FilePrinter.writeToFile("16:00 - the janitor closes the gates and the day is over:");
         janitor1.introduceMyself();
         janitor1.describeMyJob();
     }

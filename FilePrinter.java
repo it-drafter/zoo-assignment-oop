@@ -4,7 +4,7 @@ import java.io.BufferedWriter;
 import java.io.FileWriter;
 import java.io.IOException;
 
-public class WriteToFile {
+public class FilePrinter {
     public static void writeToFile(String output) {
         try (BufferedWriter writer = new BufferedWriter(new FileWriter("zoo_ordinary_day.txt", true))) {
             writer.write(output);

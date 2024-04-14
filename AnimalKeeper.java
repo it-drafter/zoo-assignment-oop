@@ -7,6 +7,6 @@ public class AnimalKeeper extends MaintenanceWorker {
 
     @Override
     public void describeMyJob() {
-        WriteToFile.writeToFile(" I keep animals in their cages.\n");
+        FilePrinter.writeToFile(" I keep animals in their cages.\n");
     }
 }

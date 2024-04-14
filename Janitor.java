@@ -7,6 +7,6 @@ public class Janitor extends MaintenanceWorker {
 
     @Override
     public void describeMyJob() {
-        WriteToFile.writeToFile(" I open and close the gates to the park.\n");
+        FilePrinter.writeToFile(" I open and close the gates to the park.\n");
     }
 }

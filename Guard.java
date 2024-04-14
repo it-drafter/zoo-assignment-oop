@@ -18,6 +18,6 @@ public class Guard extends Staff {
 
     @Override
     public void introduceMyself() {
-        WriteToFile.writeToFile(" Fear me! I am " + this.getName() + ", the zoo guard! I have a tranquilizer " + this.getTranquilizerType() + ".\n");
+        FilePrinter.writeToFile(" Fear me! I am " + this.getName() + ", the zoo guard! I have a tranquilizer " + this.getTranquilizerType() + ".\n");
     }
 }

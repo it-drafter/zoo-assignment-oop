@@ -7,7 +7,7 @@ public class Mammal extends Animal {
 
     @Override
     public void move() {
-        WriteToFile.writeToFile(" " + this.getSpecies() + " on the loose! Catch me if you can! My speed is: " + this.getMovementSpeed() + "km/h\n");
+        FilePrinter.writeToFile(" " + this.getSpecies() + " on the loose! Catch me if you can! My speed is: " + this.getMovementSpeed() + "km/h\n");
     }
 
 

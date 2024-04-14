@@ -18,7 +18,7 @@ public class Bird extends Animal {
 
     @Override
     public void move() {
-        WriteToFile.writeToFile(" " + this.getSpecies() + " on the loose! Catch me if you can! My speed is: " + this.getMovementSpeed() + "km/h" +
+        FilePrinter.writeToFile(" " + this.getSpecies() + " on the loose! Catch me if you can! My speed is: " + this.getMovementSpeed() + "km/h" +
                 "\n My wing span is " + this.getWingSpan() + "cm.\n");
     }
 }

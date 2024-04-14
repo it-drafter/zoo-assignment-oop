@@ -7,6 +7,6 @@ public class Botanist extends MaintenanceWorker {
 
     @Override
     public void describeMyJob() {
-        WriteToFile.writeToFile(" I water plants.\n");
+        FilePrinter.writeToFile(" I water plants.\n");
     }
 }

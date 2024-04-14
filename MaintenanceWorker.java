@@ -18,7 +18,7 @@ public abstract class MaintenanceWorker extends Staff {
 
     @Override
     public void introduceMyself() {
-        WriteToFile.writeToFile(" Hi! I am " + this.getName() + ", a zoo maintenance worker! " + this.getMaintenanceWorkType() + " to be precise.");
+        FilePrinter.writeToFile(" Hi! I am " + this.getName() + ", a zoo maintenance worker! " + this.getMaintenanceWorkType() + " to be precise.");
     }
 
     public abstract void describeMyJob();

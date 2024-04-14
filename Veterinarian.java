@@ -18,6 +18,6 @@ public class Veterinarian extends Staff {
 
     @Override
     public void introduceMyself() {
-        WriteToFile.writeToFile(" I am here to help! I am " + this.getName() + ", the zoo vet! I am an expert at: " + this.getAreaOfExpertise() + ".\n");
+        FilePrinter.writeToFile(" I am here to help! I am " + this.getName() + ", the zoo vet! I am an expert at: " + this.getAreaOfExpertise() + ".\n");
     }
 }

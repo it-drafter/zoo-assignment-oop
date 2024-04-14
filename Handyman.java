@@ -7,6 +7,6 @@ public class Handyman extends MaintenanceWorker {
 
     @Override
     public void describeMyJob() {
-        WriteToFile.writeToFile(" I fix things.\n");
+        FilePrinter.writeToFile(" I fix things.\n");
     }
 }
